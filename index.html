@@ -21,21 +21,79 @@
 
         gtag('config', 'UA-166806154-1');
     </script>
-	
+    	
 	<link rel="icon" href="" type="image/png" />
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="https://use.typekit.net/nqp6hhc.css">
+    
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
 
+    
 </head>
 <body>
-	<main>
-		<p>CHARLIE NOON LTD</p>
-        <p>CONTACT <a href="mailto:info@charlienoon.com" style="text-decoration:none">INFO@CHARLIENOON.COM</a></p>
-        <p>INSTAGRAM <a href="https://www.instagram.com/charlie__noon/" style="text-decoration:none" target="_blank">@CHARLIE__NOON</a></p>
-	</main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     
-    <video autoplay muted loop id="myVideo">
-  <source src="content/CNLTD_Showreel_Test_1080_271022_V2.mp4" type="video/mp4">
-</video>
+<script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});</script>
+    
+    
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+    
+    
+<div class="grid fixed top-left padding--medium zz">
+    <a href="http://charlienoon.com">
+        CHARLIE NOON LTD
+    </a>
+    &emsp;&emsp;&emsp;&emsp;
+    <a href="mailto:STUDIO@CHARLIENOON.COM">
+        CONTACT
+    </a>  
+</div>
+    
+
+
+        
     
 </body>
 </html>
